@@ -1,0 +1,12 @@
+<suite name = "Magento Regression suite">
+    <test name = "Regression test" preserve-order = "true">
+        <classes>
+            <class name = "Tests.UserRegisteration"/>
+            <class name = "Tests.MobileTest"/>
+            <class name = "Tests.ProductCartTest"/>
+            <class name = "Tests.CompareProducts"/>
+            <class name = "Tests.WishList"/>
+            <class name = "Tests.CheckoutTest"/>
+        </classes>
+    </test>
+</suite>
